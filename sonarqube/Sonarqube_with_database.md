@@ -112,6 +112,9 @@ apt install net-tools
   WantedBy=multi-user.target
   EOL
   ```
+  
+  cd /opt
+  mv sonarqube-8.9.2.46101/ sonarqube
 
 1. Add sonar user and grant ownership to /opt/sonarqube directory 
   ```sh 
